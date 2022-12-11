@@ -2701,7 +2701,7 @@ importers:
       '@emotion/styled': ^11.3.0
       '@fontsource/fira-code': ^4.5.0
       '@fontsource/rubik': ^4.5.0
-      '@mdx-js/react': ^1.6.22
+      '@mdx-js/react': ^2.0.0
       '@remirror/core': ^2.0.9
       '@remirror/dev': ^2.0.11
       '@remirror/react': ^2.0.20
@@ -2743,7 +2743,7 @@ importers:
       '@emotion/styled': 11.3.0_5980bd6d235bff6cb91f725b062bd991
       '@fontsource/fira-code': 4.5.1
       '@fontsource/rubik': 4.5.0
-      '@mdx-js/react': 1.6.22_react@18.0.0
+      '@mdx-js/react': 2.1.5_react@18.0.0
       '@remirror/core': link:../packages/remirror__core
       '@remirror/dev': link:../packages/remirror__dev
       '@remirror/react': link:../packages/remirror__react
@@ -7019,6 +7019,17 @@ packages:
       react: ^16.13.1 || ^17.0.0
     dependencies:
       react: 18.0.0
+    dev: true
+
+  /@mdx-js/react/2.1.5_react@18.0.0:
+    resolution: {integrity: sha512-3Az1I6SAWA9R38rYjz5rXBrGKeZhq96CSSyQtqY+maPj8stBsoUH5pNcmIixuGkufYsh8F5+ka2CVPo2fycWZw==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@types/mdx': 2.0.3
+      '@types/react': 18.0.26
+      react: 18.0.0
+    dev: false
 
   /@mdx-js/util/1.6.22:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
@@ -10105,6 +10116,10 @@ packages:
     dependencies:
       '@types/unist': 2.0.6
 
+  /@types/mdx/2.0.3:
+    resolution: {integrity: sha512-IgHxcT3RC8LzFLhKwP3gbMPeaK7BM9eBH46OdapPA7yvuIUJ8H6zHZV53J8hGZcTSnt95jANt+rTBNUUc22ACQ==}
+    dev: false
+
   /@types/mime-types/2.1.1:
     resolution: {integrity: sha512-vXOTGVSLR2jMw440moWTC7H19iUyLtP3Z1YTj7cSsubOICinjMxFeb/V57v9QdyyPGbbWolUFSSmSiRSn94tFw==}
     dev: true
@@ -10294,7 +10309,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
       csstype: 3.1.1
-    dev: true
 
   /@types/reactcss/1.2.6:
     resolution: {integrity: sha512-qaIzpCuXNWomGR1Xq8SCFTtF4v8V27Y6f+b9+bzHiv087MylI/nTCqqdChNeWS7tslgROmYB7yeiruWX7WnqNg==}
@@ -12503,7 +12517,7 @@ packages:
       mississippi: 3.0.0
       mkdirp: 0.5.5
       move-concurrently: 1.0.1
-      promise-inflight: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
       rimraf: 2.7.1
       ssri: 6.0.2
       unique-filename: 1.1.1
@@ -23507,6 +23521,17 @@ packages:
     peerDependenciesMeta:
       bluebird:
         optional: true
+
+  /promise-inflight/1.0.1_bluebird@3.7.2:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
+    dependencies:
+      bluebird: 3.7.2
+    dev: true
 
   /promise-retry/1.1.1:
     resolution: {integrity: sha1-ZznpaOMFHaIM5kl/srUPaRHfPW0=}
