@@ -131,10 +131,10 @@
     "@changesets/cli": "^2.25.0",
     "@jest/globals": "^28.1.1",
     "@jest/types": "^28.1.1",
-    "@linaria/babel-preset": "3.0.0-beta.13",
-    "@linaria/cli": "3.0.0-beta.13",
-    "@linaria/shaker": "3.0.0-beta.13",
-    "@linaria/webpack-loader": "3.0.0-beta.13",
+    "@linaria/babel-preset": "3.0.0-beta.23",
+    "@linaria/cli": "3.0.0-beta.23",
+    "@linaria/shaker": "3.0.0-beta.23",
+    "@linaria/webpack-loader": "3.0.0-beta.23",
     "@lingui/cli": "^3.14.0",
     "@lingui/macro": "^3.14.0",
     "@lingui/react": "^3.14.0",
@@ -171,7 +171,7 @@
     "cross-env": "^7.0.3",
     "delay": "^5.0.0",
     "doc-plugin-remirror": "^0.2.1",
-    "downlevel-dts": "^0.7.0",
+    "downlevel-dts": "^0.11.0",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-formatter-github": "^1.0.11",
@@ -186,7 +186,7 @@
     "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "4.4.0",
+    "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unicorn": "^37.0.1",
@@ -214,11 +214,11 @@
     "remirror": "2.0.21",
     "rimraf": "^3.0.2",
     "size-limit": "^7.0.8",
-    "snapshot-diff": "^0.9.0",
+    "snapshot-diff": "^0.10.0",
     "testing": "^0.0.4",
     "ts-documenter": "^0.1.3",
     "tsx": "^3.4.2",
-    "typescript": "~4.7.4",
+    "typescript": "~4.9.0",
     "typescript-styled-plugin": "^0.18.1"
   },
   "engines": {
@@ -228,7 +228,7 @@
   "manypkg": {
     "defaultBranch": "HEAD"
   },
-  "packageManager": "pnpm@6.33.1",
+  "packageManager": "pnpm@6.35.1",
   "pnpm": {
     "overrides": {
       "postcss": ">= 8.0.0"
